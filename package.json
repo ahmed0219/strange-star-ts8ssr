@@ -1,0 +1,31 @@
+{
+  "name": "ts8ssr",
+  "private": true,
+  "version": "0.0.36",
+  "type": "module",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "vite build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@google/genai": "^1.33.0",
+    "lucide-react": "^0.561.0",
+    "recharts": "^3.5.1",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "crypto-js": "^4.2.0",
+    "react-is": "19.2.3"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.0",
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  },
+  "description": null
+}
